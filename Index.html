@@ -1,0 +1,131 @@
+
+<DOCTYPE html>
+    <HTML lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>MoodTrack - Mood Journal + Musoc Recommender</title>
+        <style>
+            body {
+                margin: 0;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background: linear-gradient(to bottom right, #dbeafe, #e0e7ff);
+            }
+
+            .container {
+                max-width: 800px;
+                margin: auto;
+                padding: 20px;
+            }
+
+            .navbar {
+                background-color: white;
+                padding: 15px 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid #ddd;
+            }
+
+            .card{
+                background: white;
+                border-radius: 10px;
+                padding: 20px;
+                margin-bottom: 20px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);   
+            }
+
+            .emoji-row {
+                display: flex;
+                gap: 10px;
+                margin: 10px 0;
+            }
+
+            .emoji-row button {
+                font-size: 24px;
+                background: none;
+                border: none;
+                cursor: pointer;
+            }
+           
+            input, textarea {
+                width: 100%;
+                padding: 10px;
+                margin-top: 10px;
+                border-radius: 6px;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+            }
+
+            .btn-row {
+                margin: 10px 0;
+                display: flex;
+                gap: 10px;
+            }
+            
+            .btn {
+                padding: 10px 20px;
+                color: white;
+                border: none;
+                border-radius: 8px;
+                cursor: pointer;
+            }
+
+            .btn.blue { background-color: #6366f1; }
+            .btn.green { background-color: #10b981; }
+            
+            .chart-placeholder {
+                height: 120px;
+                background: #f0f4ff;
+                border-radius: 8px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #555;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <h1>MoodTrack</h1>
+            <button onclick="signout()">Sign Out</button>
+        </nav>
+        
+        <main class="container">
+            <section class="card">
+                <h2>Today's Mood</h2>
+                <div class="emoji-row">
+                    <button onclick="setmood('happy')">😄</button>
+                    <button onclick="setmood('content')">🙂</button>
+                    <button onclick="setmood('neutral')">😐</button>
+                    <button onclick="setmood('sad')">😔</button>
+                    <button onclick="setmood('depressed')">😢</button>
+                </div>
+                <input type="text" id="moodtags" placeholder="to be added">
+            </section>
+            
+            <section class="card">
+                <h2>Journal Entry</h2>
+                <textarea id="JournalEntry" rows="5" placeholder="How are you feeling today?"></textarea>
+            </section>
+            
+            <section class="card">
+                <h2>Music For Your Mood</h2>
+                <div class="btn-row">
+                    <button class="btn blue" onclick="recommendMusic('match')">Match Mood</button>
+                    <button class="btn green" onclick="recommendMusic('cheer')">Cheer Me Up</button>
+                </div>
+
+                <p id="suggestedText">Suggested Playlist: <em>None yet</em></p>
+            </section>
+
+            <section class="card">
+                <h2>Mood Trends</h2>
+                <div class="chart-placeholder">[Mood Chart Placeholder]</div>
+            </section>
+        </main>
+
+        <script>
+            
+        </script>
+    </body>
+    
