@@ -15,7 +15,7 @@ Choose to match or shift mood (e.g., “cheer me up mode”)
     - Current Mood
     - Mood trends over time
     - Journal sentiment
-Spotify Integration (Optional)
+Spotify Integration
 Play Tracks directly in-app
 Save recommended playlists to Spotify account
 Analyze Spotify listening history for better suggestions
