@@ -12,9 +12,9 @@ Mood tags (e.g., happy, stressed, tired)
 - Music Recommendation
 Personalized song or playlist suggestions based on:
 Choose to match or shift mood (e.g., “cheer me up mode”)
-Current Mood
-Mood trends over time
-Journal sentiment
+    - Current Mood
+    - Mood trends over time
+    - Journal sentiment
 Spotify Integration (Optional)
 Play Tracks directly in-app
 Save recommended playlists to Spotify account
