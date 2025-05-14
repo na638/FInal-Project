@@ -9,6 +9,7 @@ Mood Journal:
 - Daily Mood Check-in (Emoji/Slider Scale)
 Optional Journal Entry for context
 Mood tags (e.g., happy, stressed, tired)
+
 - Music Recommendation
 Personalized song or playlist suggestions based on:
 Choose to match or shift mood (e.g., “cheer me up mode”)
@@ -19,11 +20,13 @@ Spotify Integration
 Play Tracks directly in-app
 Save recommended playlists to Spotify account
 Analyze Spotify listening history for better suggestions
+
 - Mood Analytics
 Mood Calendar/Timeline
 Trends & Emotion Tracking
 Word Cloud from Journal Entries
 Suggestions for mood-improving activities / music
+
 - Smart Reminders & Notifications
 Daily Journaling Prompts
 Music nudges when negative trends are detected
