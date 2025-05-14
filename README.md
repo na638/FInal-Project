@@ -1,7 +1,7 @@
 MoodTrack
 Mood Journal + Music Recommender
 
-Overview: 
+**Overview**: 
 Users log in their daily mood and journal entries and the system will recommend music or playlists that match their mood or improve their emotional state. It is a blend of journaling, emotional self-care and music therapy.
 
 Features:
